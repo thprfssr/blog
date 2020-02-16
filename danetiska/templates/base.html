@@ -1,5 +1,7 @@
 <html>
   <head>
+    {% load static %}
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Javier Castro</title>
@@ -7,8 +9,11 @@
     <meta name="author" content="">
   </head>
   <body>
+
+    <!-- This div is necessary in order to prevent scrolling past the page
+    boundaries on mobile. I found this by trial and error. -->
     <div style="overscroll-behavior;contain;">
-      Hello World!
+      {% include "_header.html" %}
     </div>
   </body>
 </html>
