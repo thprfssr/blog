@@ -358,3 +358,17 @@ color: #777;
 	font-size: 15px;
 	color: #666;
 }
+
+
+.searchbox {
+  float: center;
+  padding: 12px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 8px;
+  font-size: 17px;
+  width: 90%; /* if 100%, we scroll past page boundaries. */
+  align: center;
+}
